@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+html,
+body {
+    background-color: #008cba;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.content{
+    width: 440px;
+    height: 680px;
+    background-color: #fff;
+}
+
+img{
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+}
+.form-container{
+    padding: 24px 36px;
+}
+
+.form-container h2{
+    font-size: 28px;
+    margin: 10px auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+    width: 100%;
+}
+
+.form-control input{
+    width: 100%;
+    padding: 12px 8px;
+    border: none;
+    /* text-transform:uppercase; */
+    margin-bottom: 4px;
+    border-bottom: 1px black solid;
+}
+
+.form-control input:focus{
+    outline: none;
+}
+
+.form-container button{
+    width: 108px;
+    padding: 10px 26px;
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+span{
+    font-size: 12px;
+}
+
+.error{
+    color: red;
+    margin: 10px 4px;
+}
+
+.success{
+    margin: 10px 4px;
+    color: green;
+}
+
+.form-control .success-parent{
+    border: 2px solid green;
+}
+
+.form-control .error-parent{
+    border: 2px solid red;
+}

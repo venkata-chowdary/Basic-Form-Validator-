@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width= , initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <img
+                    src="https://res.cloudinary.com/debbsefe/image/upload/f_auto,c_fill,dpr_auto,e_grayscale/image_fz7n7w.webp"
+                    alt="header-image"
+                    class="cld-responsive"
+                />
+                <div class="form-container">
+                    <h2>Registration Here</h2>
+                    <form class="form" id="form">
+                        <div class="form-control">
+                            <!-- <label>Username:</label> -->
+                            <input type="text" id="username" placeholder="name"/>
+                            <span class="error"></span>
+                        </div>
+                        <div class="form-control">
+                            <!-- <label>Email:</label> -->
+                            <input type="email" id="email" placeholder="email" />
+                            <span class="error"></span>
+                        </div>
+                        <div class="form-control">
+                            <!-- <label>Password:</label> -->
+                            <input type="password" id="password" placeholder="password"/>
+                            <span class="error"></span>
+                        </div>
+                        <div class="form-control">
+                            <!-- <label>Confirm Password:</label> -->
+                            <input type="password" id="confirm-password" placeholder="confirm password"/>
+                            <span class="error"></span>
+                        </div>
+                        <button type="submit" id="btn">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="/script.js"></script>
+    </body>
+</html>
